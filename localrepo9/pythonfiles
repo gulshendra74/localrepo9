@@ -1,22 +1,10 @@
-# basic_script.py
+# A basic Python script
 
-# Function to greet user
-def greet_user(name):
-    print(f"Hello, {name}! Welcome to Python programming.")
+# Print a message to the console
+print("Hello, World!")
 
-# Function to check if a number is even or odd
-def check_even_odd(number):
-    if number % 2 == 0:
-        print(f"{number} is even.")
-    else:
-        print(f"{number} is odd.")
+# Get user input
+name = input("What is your name? ")
 
-# Main script execution
-if __name__ == "__main__":
-    # Greet the user
-    user_name = input("Enter your name: ")
-    greet_user(user_name)
-
-    # Ask for a number and check if it's even or odd
-    user_number = int(input("Enter a number: "))
-    check_even_odd(user_number)
+# Print a personalized message
+print(f"Hello, {name}!")
