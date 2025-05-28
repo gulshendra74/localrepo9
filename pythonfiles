@@ -1,0 +1,10 @@
+# A basic Python script
+
+# Print a message to the console
+print("Hello, World!")
+
+# Get user input
+name = input("What is your name? ")
+
+# Print a personalized message
+print(f"Hello, {name}!")
